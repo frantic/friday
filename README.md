@@ -15,6 +15,9 @@ test(three(5), 8);
 test(three(6), 9);
 test(three(four), 7);
 test(three(four)(three(four)), 14);
+
+test(add(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15), 120);
+test(add(1.5, 2), 3.5);
 ```
 
 # How to run
