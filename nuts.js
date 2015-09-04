@@ -10,6 +10,8 @@ function test(a, b) {
   }
 }
 
+console.log(add.toString().length);
+
 test(add(1, 2), 3);
 test(add(3)(4)(), 7);
 test(add(3)(4)(5), 12);
